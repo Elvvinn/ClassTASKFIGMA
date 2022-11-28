@@ -1,0 +1,389 @@
+.mainim {
+    padding-bottom: 100px;
+    background-color: #FAFAFA;
+    ;
+
+    .everymatter h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .everymatter p {
+        text-align: center;
+        line-height: 40px;
+        color: #737373;
+        font-family: cursive;
+    }
+
+    .everymatterikon {
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .everymatterikon .matterdiv1 {
+        position: relative;
+        width: 190px;
+        height: 150px;
+        background-color: #FFFFFF;
+
+    }
+
+    .matterdiv1 i {
+        position: absolute;
+        font-size: 35px;
+        padding-left: 65px;
+        padding-top: 30px;
+        color: #D0A144;
+    }
+
+    .matterdiv1 h2 {
+
+        position: absolute;
+        font-size: 20px;
+        padding-top: 80px;
+        padding-left: 60px;
+    }
+
+    .matterdiv1 h5 {
+
+        position: absolute;
+        font-size: 15px;
+        padding-top: 110px;
+        padding-left: 22px;
+
+    }
+
+    .matterdiv2 {
+        position: relative;
+        width: 190px;
+        height: 150px;
+        background-color: #FFFFFF;
+    }
+
+    .matterdiv2 i {
+        position: absolute;
+        font-size: 35px;
+        padding-left: 75px;
+        padding-top: 30px;
+        color: #D0A144;
+    }
+
+    .matterdiv2 h2 {
+        position: absolute;
+        font-size: 20px;
+        padding-top: 80px;
+        padding-left: 60px;
+    }
+
+    .matterdiv2 h5 {
+
+        position: absolute;
+        font-size: 15px;
+        padding-top: 110px;
+        padding-left: 45px;
+    }
+
+    .matterdiv3 {
+        position: relative;
+        width: 190px;
+        height: 150px;
+        background-color: #FFFFFF;
+    }
+
+    .matterdiv3 i {
+        position: absolute;
+        font-size: 35px;
+        padding-left: 75px;
+        padding-top: 30px;
+        color: #D0A144;
+    }
+
+    .matterdiv3 h2 {
+        position: absolute;
+        font-size: 20px;
+        padding-top: 80px;
+        padding-left: 85px;
+    }
+
+    .matterdiv3 h5 {
+        position: absolute;
+        font-size: 15px;
+        padding-top: 110px;
+        padding-left: 30px;
+    }
+
+    .matterdiv4 {
+        position: relative;
+        width: 190px;
+        height: 150px;
+        background-color: #FFFFFF;
+    }
+
+    .matterdiv4 i {
+        position: absolute;
+        font-size: 35px;
+        padding-left: 75px;
+        padding-top: 30px;
+        color: #D0A144;
+    }
+
+    .matterdiv4 h2 {
+        position: absolute;
+        font-size: 20px;
+        padding-top: 80px;
+        padding-left: 65px;
+    }
+
+    .matterdiv4 h5 {
+
+        position: absolute;
+        font-size: 15px;
+        padding-top: 110px;
+        padding-left: 30px;
+    }
+
+    .advicetext {
+        padding-top: 100px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .advicetext h2 {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .advicetext p {
+
+        line-height: 70px;
+        color: #737373;
+        font-size: 18px;
+
+    }
+
+    .kartadvice {
+
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .advicekart1 {
+        position: relative;
+        width: 230px;
+        height: 320px;
+        border: 1px solid #FFFFFF;
+        border: none;
+        background-color: #FFFFFF;
+        line-height: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .advicekart1 h5 {
+        position: absolute;
+        font-size: 20px;
+        padding-left: 25px;
+        padding-top: 20px;
+        max-width: 100px;
+    }
+
+    .advicekart1 p {
+        position: absolute;
+        padding-left: 25px;
+        padding-top: 70px;
+        color: #737373;
+    }
+
+    .advicekart1 img {
+        position: absolute;
+        padding-top: 182px;
+        padding-left: 0px;
+    }
+
+    .advicekart2 {
+        position: relative;
+        width: 230px;
+        height: 320px;
+        border: 1px solid #FFFFFF;
+        border: none;
+        background-color: #FFFFFF;
+        line-height: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    .advicekart2 h5 {
+        position: absolute;
+        font-size: 20px;
+        padding-left: 25px;
+        padding-top: 20px;
+        max-width: 100px;
+    }
+
+    .advicekart2 p {
+        position: absolute;
+        padding-left: 25px;
+        padding-top: 70px;
+        color: #737373;
+    }
+
+    .advicekart2 img {
+        position: absolute;
+        padding-top: 182px;
+        padding-left: 0px;
+
+    }
+
+    .advicekart3 {
+        position: relative;
+        width: 230px;
+        height: 320px;
+        border: 1px solid #FFFFFF;
+        border: none;
+        background-color: #FFFFFF;
+        line-height: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    .advicekart3 h5 {
+        position: absolute;
+        font-size: 20px;
+        padding-left: 25px;
+        padding-top: 20px;
+        max-width: 150px;
+    }
+
+    .advicekart3 p {
+        position: absolute;
+        padding-left: 25px;
+        padding-top: 70px;
+        color: #737373;
+    }
+
+    .advicekart3 img {
+        position: absolute;
+        padding-top: 182px;
+        padding-left: 0px;
+    }
+
+    .advicekart4 {
+        position: relative;
+        width: 230px;
+        height: 320px;
+        border: 1px solid #FFFFFF;
+        border: none;
+        background-color: #FFFFFF;
+        line-height: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    .advicekart4 h5 {
+        position: absolute;
+        font-size: 20px;
+        padding-left: 25px;
+        padding-top: 20px;
+        max-width: 150px;
+    }
+
+    .advicekart4 p {
+        position: absolute;
+        padding-left: 25px;
+        padding-top: 70px;
+        color: #737373;
+    }
+
+    .advicekart4 img {
+        position: absolute;
+        padding-top: 182px;
+        padding-left: 0px;
+    }
+
+    .section3 {
+        padding-top: 150px;
+        padding-left: 80px;
+    }
+
+    .hiki {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 100px;
+
+    }
+
+    .p3 {
+        text-align: center;
+        color: #737373;
+        font-size: 18px;
+        justify-content: center;
+
+    }
+
+    .down {
+
+        padding-top: 80px;
+        display: flex;
+    }
+
+    .leftside img {
+        padding-left: 100px;
+        width: 500px;
+        height: 420px;
+    }
+}
+
+.rightside {
+
+    padding-left: 300px;
+    padding-top: 20px;
+}
+
+.rightside h2 {
+
+    font-size: 35px;
+    font-weight: bold;
+    max-width: 270px;
+    letter-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rightside p {
+    padding-top: 30px;
+    font-size: 19px;
+    max-width: 340px;
+    color: #737373;
+}
+
+.rightside i {
+
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.rightside i {
+    color: #D0A144;
+
+}
+
+.rightside h5 {
+
+    font-size: 18px;
+    max-width: 250px;
+    font-family: cursive;
+}
+
+.rightside h6 {
+
+    padding-top: 10px;
+    color: #737373;
+}

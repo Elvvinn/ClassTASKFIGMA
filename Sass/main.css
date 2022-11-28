@@ -1,0 +1,620 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.generalheader {
+  background-image: url("/cover.svg");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  padding-bottom: 200px;
+  background-color: #FAFAFA;
+}
+.generalheader .nav {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.generalheader .nav h3 {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.generalheader .alarim {
+  word-spacing: 20px;
+}
+.generalheader .alarim a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #737373;
+}
+.generalheader .navikon {
+  font-size: 17px;
+}
+.generalheader .textheader {
+  padding-top: 100px;
+  padding-left: 170px;
+}
+.generalheader .textheader h1 {
+  font-size: 50px;
+  font-family: fantasy;
+  max-width: 200px;
+}
+.generalheader .textheader h4 {
+  padding-top: 55px;
+  font-size: 20px;
+  max-width: 320px;
+  color: #737373;
+}
+.generalheader .firstbutton {
+  padding-top: 50px;
+}
+.generalheader .firstbutton .buton1header {
+  background-color: #784F33;
+  border: 1px solid black;
+  border-radius: 18px;
+  width: 140px;
+  height: 40px;
+  color: #FFFFFF;
+}
+.generalheader .firstbutton .buton2header {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  color: #784F33;
+  border: 1px solid #784F33;
+}
+.generalheader .cardheader {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.generalheader .kart1 {
+  position: relative;
+  margin-bottom: -50px;
+  width: 418px;
+  height: 260px;
+  background-color: #FFFFFF;
+}
+.generalheader .kart1 i {
+  position: absolute;
+  font-size: 60px;
+  padding-top: 60px;
+  padding-left: 60px;
+}
+.generalheader .kart1 h3 {
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 140px;
+  padding-left: 40px;
+  color: #252B42;
+}
+.generalheader .kart1 p {
+  position: absolute;
+  padding-top: 190px;
+  padding-left: 40px;
+  max-width: 200px;
+  color: #252B42;
+}
+.generalheader .kart2 {
+  margin-bottom: -50px;
+  width: 418px;
+  height: 260px;
+  background-color: #FFFFFF;
+}
+.generalheader .kart2 i {
+  position: absolute;
+  font-size: 60px;
+  padding-top: 60px;
+  padding-left: 60px;
+}
+.generalheader .kart3 {
+  margin-bottom: -50px;
+  width: 418px;
+  height: 260px;
+  background: #295C7A;
+}
+.generalheader .kart3 i {
+  position: absolute;
+  font-size: 60px;
+  padding-top: 60px;
+  padding-left: 60px;
+}
+.generalheader .kart3 h3 {
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 140px;
+  padding-left: 40px;
+  color: #FFFFFF;
+}
+.generalheader .kart3 p {
+  position: absolute;
+  padding-top: 190px;
+  padding-left: 40px;
+  max-width: 200px;
+  color: #FFFFFF;
+}
+.generalheader .kart2 h3 {
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 140px;
+  padding-left: 40px;
+  color: #252B42;
+}
+.generalheader .kart2 p {
+  position: absolute;
+  padding-top: 190px;
+  padding-left: 40px;
+  max-width: 200px;
+  color: #737373;
+}
+
+.mainim {
+  padding-bottom: 100px;
+  background-color: #FAFAFA;
+}
+.mainim .everymatter h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.mainim .everymatter p {
+  text-align: center;
+  line-height: 40px;
+  color: #737373;
+  font-family: cursive;
+}
+.mainim .everymatterikon {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.mainim .everymatterikon .matterdiv1 {
+  position: relative;
+  width: 190px;
+  height: 150px;
+  background-color: #FFFFFF;
+}
+.mainim .matterdiv1 i {
+  position: absolute;
+  font-size: 35px;
+  padding-left: 65px;
+  padding-top: 30px;
+  color: #D0A144;
+}
+.mainim .matterdiv1 h2 {
+  position: absolute;
+  font-size: 20px;
+  padding-top: 80px;
+  padding-left: 60px;
+}
+.mainim .matterdiv1 h5 {
+  position: absolute;
+  font-size: 15px;
+  padding-top: 110px;
+  padding-left: 22px;
+}
+.mainim .matterdiv2 {
+  position: relative;
+  width: 190px;
+  height: 150px;
+  background-color: #FFFFFF;
+}
+.mainim .matterdiv2 i {
+  position: absolute;
+  font-size: 35px;
+  padding-left: 75px;
+  padding-top: 30px;
+  color: #D0A144;
+}
+.mainim .matterdiv2 h2 {
+  position: absolute;
+  font-size: 20px;
+  padding-top: 80px;
+  padding-left: 60px;
+}
+.mainim .matterdiv2 h5 {
+  position: absolute;
+  font-size: 15px;
+  padding-top: 110px;
+  padding-left: 45px;
+}
+.mainim .matterdiv3 {
+  position: relative;
+  width: 190px;
+  height: 150px;
+  background-color: #FFFFFF;
+}
+.mainim .matterdiv3 i {
+  position: absolute;
+  font-size: 35px;
+  padding-left: 75px;
+  padding-top: 30px;
+  color: #D0A144;
+}
+.mainim .matterdiv3 h2 {
+  position: absolute;
+  font-size: 20px;
+  padding-top: 80px;
+  padding-left: 85px;
+}
+.mainim .matterdiv3 h5 {
+  position: absolute;
+  font-size: 15px;
+  padding-top: 110px;
+  padding-left: 30px;
+}
+.mainim .matterdiv4 {
+  position: relative;
+  width: 190px;
+  height: 150px;
+  background-color: #FFFFFF;
+}
+.mainim .matterdiv4 i {
+  position: absolute;
+  font-size: 35px;
+  padding-left: 75px;
+  padding-top: 30px;
+  color: #D0A144;
+}
+.mainim .matterdiv4 h2 {
+  position: absolute;
+  font-size: 20px;
+  padding-top: 80px;
+  padding-left: 65px;
+}
+.mainim .matterdiv4 h5 {
+  position: absolute;
+  font-size: 15px;
+  padding-top: 110px;
+  padding-left: 30px;
+}
+.mainim .advicetext {
+  padding-top: 100px;
+  justify-content: center;
+  text-align: center;
+}
+.mainim .advicetext h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainim .advicetext p {
+  line-height: 70px;
+  color: #737373;
+  font-size: 18px;
+}
+.mainim .kartadvice {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.mainim .advicekart1 {
+  position: relative;
+  width: 230px;
+  height: 320px;
+  border: 1px solid #FFFFFF;
+  border: none;
+  background-color: #FFFFFF;
+  line-height: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.mainim .advicekart1 h5 {
+  position: absolute;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-top: 20px;
+  max-width: 100px;
+}
+.mainim .advicekart1 p {
+  position: absolute;
+  padding-left: 25px;
+  padding-top: 70px;
+  color: #737373;
+}
+.mainim .advicekart1 img {
+  position: absolute;
+  padding-top: 182px;
+  padding-left: 0px;
+}
+.mainim .advicekart2 {
+  position: relative;
+  width: 230px;
+  height: 320px;
+  border: 1px solid #FFFFFF;
+  border: none;
+  background-color: #FFFFFF;
+  line-height: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.mainim .advicekart2 h5 {
+  position: absolute;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-top: 20px;
+  max-width: 100px;
+}
+.mainim .advicekart2 p {
+  position: absolute;
+  padding-left: 25px;
+  padding-top: 70px;
+  color: #737373;
+}
+.mainim .advicekart2 img {
+  position: absolute;
+  padding-top: 182px;
+  padding-left: 0px;
+}
+.mainim .advicekart3 {
+  position: relative;
+  width: 230px;
+  height: 320px;
+  border: 1px solid #FFFFFF;
+  border: none;
+  background-color: #FFFFFF;
+  line-height: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.mainim .advicekart3 h5 {
+  position: absolute;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-top: 20px;
+  max-width: 150px;
+}
+.mainim .advicekart3 p {
+  position: absolute;
+  padding-left: 25px;
+  padding-top: 70px;
+  color: #737373;
+}
+.mainim .advicekart3 img {
+  position: absolute;
+  padding-top: 182px;
+  padding-left: 0px;
+}
+.mainim .advicekart4 {
+  position: relative;
+  width: 230px;
+  height: 320px;
+  border: 1px solid #FFFFFF;
+  border: none;
+  background-color: #FFFFFF;
+  line-height: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.mainim .advicekart4 h5 {
+  position: absolute;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-top: 20px;
+  max-width: 150px;
+}
+.mainim .advicekart4 p {
+  position: absolute;
+  padding-left: 25px;
+  padding-top: 70px;
+  color: #737373;
+}
+.mainim .advicekart4 img {
+  position: absolute;
+  padding-top: 182px;
+  padding-left: 0px;
+}
+.mainim .section3 {
+  padding-top: 150px;
+  padding-left: 80px;
+}
+.mainim .hiki {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 100px;
+}
+.mainim .p3 {
+  text-align: center;
+  color: #737373;
+  font-size: 18px;
+  justify-content: center;
+}
+.mainim .down {
+  padding-top: 80px;
+  display: flex;
+}
+.mainim .leftside img {
+  padding-left: 100px;
+  width: 500px;
+  height: 420px;
+}
+
+.rightside {
+  padding-left: 300px;
+  padding-top: 20px;
+}
+
+.rightside h2 {
+  font-size: 35px;
+  font-weight: bold;
+  max-width: 270px;
+  letter-spacing: 1px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.rightside p {
+  padding-top: 30px;
+  font-size: 19px;
+  max-width: 340px;
+  color: #737373;
+}
+
+.rightside i {
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.rightside i {
+  color: #D0A144;
+}
+
+.rightside h5 {
+  font-size: 18px;
+  max-width: 250px;
+  font-family: cursive;
+}
+
+.rightside h6 {
+  padding-top: 10px;
+  color: #737373;
+}
+
+.futir {
+  display: flex;
+}
+.futir .hiim .halti {
+  font-weight: bold;
+  color: gray;
+}
+.futir .ikonlar {
+  padding-left: 800px;
+  font-size: 30px;
+}/*# sourceMappingURL=main.css.map */
